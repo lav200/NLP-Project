@@ -2,6 +2,7 @@ import streamlit as st
 import re
 from nltk.corpus import stopwords
 import joblib
+nltk.download('stopwords')
 
 custom_stopwords = [
     'according', 'administration', 'also', 'america', 'american', 'americans', 'another',
